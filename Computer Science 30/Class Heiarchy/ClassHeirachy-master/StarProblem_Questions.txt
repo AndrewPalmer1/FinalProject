@@ -1,0 +1,22 @@
+Problem 1
+Star Class:
+Now let's say you want to decide how many stars are shown 
+instead of hard- coding 25 in the array initialization 
+(the first line of the program), as well as the maximum radius. 
+You're only in charge of the Star class, so you want to add a 
+variable called starCount and a variable called maxRadius.
+Main Program:
+- 25 = Star.starCount
+- 20 = Star.maxRadius
+
+Problem 2
+What happens if X & Y are made static
+
+Problem 3: Static Methods
+Public variables are a security concern. 
+Change the starCount and maxRadius to private variables and 
+Create GETTER Functinos for both
+
+Problem 4:
+Question: What would happen if getStarCount() was made static?
+  

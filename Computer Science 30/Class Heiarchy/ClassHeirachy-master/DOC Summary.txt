@@ -1,0 +1,22 @@
+Bouncing Ball
+ParticleExplosion
+Extended Classes, Inheritance
+Extended Classes using Array Lists as Memory
+Interfaces_One
+Interfaces_Many
+Abstract Class
+
+All Files based on Website (removed) from Kevin Workman
+Accessed 20170201, now removed
+
+Composition over Inheritance
+The above example is admittedly contrived, and it's actually a 
+pretty bad design. If this were real life, the BlueSquare and 
+RedSquare classes could probably be rolled into one class called 
+ColoredRectangle, which would contain a color value.
+
+In fact, it would probably be best to get rid of the ColoredSquare class 
+altogether and instead modify the Rectangle class to use a color value. 
+This isn't always feasible, but the general rule is that you should use 
+inheritance when you need it, and not when you don't. If you can accomplish 
+your goal using composition instead of inheritance, you probably should.
